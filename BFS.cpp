@@ -17,9 +17,7 @@ public:
             q.pop();
             bfs.push_back(node);
 
-            bhyb
-
-                for (auto it : adj[node])
+            for (auto it : adj[node])
             {
                 if (!vis[it])
                 {
