@@ -31,7 +31,11 @@ public:
         vector<int> vis(V, 0);
         int start = 0;  // node from where we wish to start dfs
         vector<int> ls; // list where answer will be stored
-        dfs(start, adj, vis, ls);
+        for (i = start; i < V; i++)
+        { // this is for dissconnected graph(graph which has more than 1 component)
+            if (!vis[i])
+                dfs(i, adj, vis, ls);
+        }
         return ls;
     }
 };
