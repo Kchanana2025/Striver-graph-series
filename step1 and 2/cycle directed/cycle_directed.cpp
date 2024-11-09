@@ -30,7 +30,8 @@ bool dfs(int node, vector<vector<int>> adj, vector<int> &visited, vector<int> &p
             return true;
         }
     }
-    path_visited[node] = 0;
+    // Mark as processed and no longer in the current path
+    path_visited[node] = 0; // hm visited array mein 0 nahi kr rhe hain because visit th ho chuka hai na ab traverse krte hue wo node wapis aayi toh kya point hai dobara visit krne ka  aur aage traverse krne ka jab phle traverse krke koi cycle nahi mili
     return false;
 }
 bool isCyclic(int V, vector<vector<int>> adj)
