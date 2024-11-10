@@ -2,6 +2,7 @@
     "files.associations": {
         "*.ejs": "html",
         "*.css": "tailwindcss",
-        "vector": "cpp"
+        "vector": "cpp",
+        "array": "cpp"
     }
 }

@@ -1,4 +1,5 @@
-//{ Driver Code Starts
+// There are two ways to do topological sort one way is this and second way is this (which is DFS)
+// second way is using kahn's algorithm (i.e using BFS)
 #include <bits/stdc++.h>
 using namespace std;
 
