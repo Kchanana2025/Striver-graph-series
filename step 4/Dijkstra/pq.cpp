@@ -1,9 +1,8 @@
 // This complexity arises because:
-// Processing each node takes O(VlogV) in the worst case.
 // Processing each edge and performing priority queue updates takes
 // O(ElogV) in the worst case.
 // Summary
-// Time Complexity:O((V+E)logV)
+// Time Complexity:O(ElogV)
 // Space Complexity: O(V) for storing distances and priority queue.
 
 #include <bits/stdc++.h>
